@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.headline{
+    text-align: center;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.alledyr{
+    text-align: center;
+}
+.animal__container{
+    display: flex;
+    border: 1px solid gray;
+}
+.animal__name,.animal__type,.detailes__btn, .update__btn{
+    margin: 20px;
+}
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    background: none;
+    padding: 0.75em 1em;
+    border-radius: 0.75em;
+    color: black;
+    min-width: 4em;
+    margin: 0 0.5em;
+}
+.btn__disabled{
+    opacity: 0.5;
+}
